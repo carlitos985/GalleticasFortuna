@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Rubik+Maps&display=swap');
+
+  html{
+    
+    font-family: 'Poppins', sans-serif;
+    
+  }
+body{
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  
+
+}
+button{
+  cursor: pointer;
+  font-family: inherit;
+  border: 2px solid #8e3d4c;
+  background-color: #FEA646;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+  /*Transicion cuando decrece*/
+  transition: transform .5s;
+}
+
+button:hover{
+  transform: scale(1.1);
+  /**transicion cuando crece*/
+  transition: transform .5s;
+}
+h1{
+  text-align: center;
+  text-shadow: 2px 2px 0 #EEA556, 
+              -2px -2px 0 #EEA556,
+              -2px 2px 0 #EEA556,
+              2px -2px 0 #EEA556;
+              
+}
+p{
+  text-align: center;
+  background-color: #fff9;
+  color: black;
+  padding: 15px;
+  border-radius: 15px;
+}
+.app{
+  background-image: url('../assets/fondo1.png');
+  min-height: 100vh;
+  background-position: center ;
+  background-size:cover ;
+}
+.container{
+  width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 95vh;
+}
+.phraseAuthor{
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
